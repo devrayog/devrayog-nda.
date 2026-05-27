@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--navy:#0B1628;--navy-mid:#112040;--navy-light:#1A3060;--gold:#C9A84C;--gold-light:#E8C96A;--border:rgba(201,168,76,0.2)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;font-family:'Rajdhani',sans-serif;background:var(--navy);color:#F0EDE6}
+::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:var(--navy)}::-webkit-scrollbar-thumb{background:var(--gold);border-radius:2px}
